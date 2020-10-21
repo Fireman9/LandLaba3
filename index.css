@@ -1,5 +1,6 @@
-body{
+body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 #headerDiv {
@@ -32,18 +33,18 @@ body{
     margin-left: 4%;
 }
 
-#headerDivBot{
+#headerDivBot {
     display: flex;
 }
 
-#leftLine{
+#leftLine {
     background-color: #fff;
     width: 61.5%;
     height: 2px;
     margin-top: 20px;
 }
 
-#symbol{
+#symbol {
     background-image: url("images/Logo.png");
     width: 50px;
     height: 50px;
@@ -53,7 +54,7 @@ body{
     margin-right: 10px;
 }
 
-#rightLine{
+#rightLine {
     background-color: #fff;
     width: 37%;
     height: 2px;
@@ -76,7 +77,20 @@ body{
     position: relative;
 }
 
-#reviewTable{
+#viewCarName {
+    font-weight: 700;
+    line-height: 80px;
+    font-size: 72px;
+    font-family: vw6-VWHead, sans-serif;
+    color: #fff;
+    margin-left: 8%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 8%;
+    width: 83%;
+}
+
+#reviewTable {
     display: flex;
     position: relative;
     margin-left: 4%;
@@ -85,7 +99,7 @@ body{
     flex-wrap: wrap;
 }
 
-.reviewBlocks{
+.reviewBlocks {
     width: 18%;
     margin-bottom: 24px;
     margin-top: 24px;
@@ -93,54 +107,173 @@ body{
 }
 
 @media (max-width: 1280px) {
-    .reviewBlocks{
+    .reviewBlocks {
         width: 36%;
         margin-left: 14%;
     }
 }
 
 @media (max-width: 640px) {
-    .reviewBlocks{
+    .reviewBlocks {
         width: 72%;
         margin-left: 28%;
     }
 }
 
-.reviewText{
+.reviewText {
     line-height: 16px;
     font-size: 16px;
-    font-family: vw6-VWText,sans-serif;
+    font-family: vw6-VWText, sans-serif;
     color: #000;
 }
 
-.reviewNumbers{
+.reviewNumbers {
     line-height: 32px;
     font-size: 26px;
-    font-family: vw6-VWText,sans-serif;
+    font-family: vw6-VWText, sans-serif;
     font-weight: 700;
 }
 
-.brake{
+.brake {
     height: 1px;
     background-color: #c2cacf;
     margin-left: 4%;
     margin-right: 4%;
 }
 
-#reviewText{
+#reviewText {
     margin-left: 16%;
     margin-right: 16%;
 }
 
-#firstA{
-    font-family: vw6-VWHead,sans-serif;
+#firstA {
+    font-family: vw6-VWHead, sans-serif;
     line-height: 52px;
     font-size: 48px;
     font-weight: 200;
 }
 
-#secondA{
-    font-size: 26px;
-    line-height: 32px;
+#secondA {
+    font-size: 22px;
+    line-height: 28px;
+}
 
+#editionsBlock {
+
+}
+
+#editions {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#editionsNames {
+    display: flex;
+    line-height: 20px;
+    font-size: 16px;
+    color: #001e50;
+    font-family: vw6-VWText, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+#comfort {
+    margin-right: 15%;
+    width: 20%;
+    padding-top: 20px;
+}
+
+#comfort::after {
+    background: #001e50;
+    display: block;
+    content: "";
+    height: 2px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-top: 20px;
+}
+
+#limitedTDI {
+    margin-right: 15%;
+    width: 20%;
+    padding-top: 20px;
+}
+
+#limitedTSI {
+    margin-right: 15%;
+    width: 20%;
+    padding-top: 20px;
+}
+
+#brakeForBlock {
+    background: #dfe4e8;
+    height: 1px;
+    margin-top: -1px;
+    margin-bottom: 24px;
+    width: 83%;
+}
+
+#editionDescriptions {
+    display: block;
+    transform: translateX(0%);
+    width: 100%;
+    height: 100%;
+}
+
+.editionName {
+    font-size: 28px;
+    font-family: vw6-VWHead, sans-serif;
+    font-weight: 200;
+    line-height: 36px;
+}
+
+.editionText {
+    margin-top: 24px;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: vw6-VWText, sans-serif;
+}
+
+.editionImg {
+    width: 62%;
+}
+
+#comfortDesc {
+    position: absolute;
+    left: 0%;
+    transition: all .3s ease-in-out;
+    width: 92%;
+    display: flex;
+    padding-left: 8%;
+}
+
+#comfortText {
+    width: 38%;
+}
+
+#limitedTDIDesc {
+    position: absolute;
+    left: 100%;
+    transition: all .3s ease-in-out;
+    width: 92%;
+    display: flex;
+    padding-left: 8%;
+}
+
+#limitedTDIText {
+    width: 38%;
+}
+
+#limitedTSIDesc {
+    position: absolute;
+    left: 200%;
+    transition: all .3s ease-in-out;
+    width: 92%;
+    display: flex;
+    padding-left: 8%;
+}
+
+#limitedTSIText {
+    width: 38%;
 }
