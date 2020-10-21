@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+}
+
+#headerDiv {
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-top: 1%;
+}
+
+#headerDivTop {
+    display: flex;
+    margin-left: 4%;
+}
+
+.menu {
+    background-color: #fff;
+    margin-bottom: 5px;
+    display: block;
+    width: 24px;
+    height: 2px;
+}
+
+#nameDiv {
+    color: #fff;
+    font-family: vw6-VWText, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-left: 4%;
+}
+
+#headerDivBot{
+    display: flex;
+}
+
+#leftLine{
+    background-color: #fff;
+    width: 61.5%;
+    height: 2px;
+    margin-top: 20px;
+}
+
+#symbol{
+    background-image: url("images/Logo.png");
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#rightLine{
+    background-color: #fff;
+    width: 37%;
+    height: 2px;
+    margin-top: 20px;
+}
+
+#viewDiv {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+#viewImg {
+    max-height: 100vh;
+    min-height: 300px;
+    min-width: 560px;
+    width: 100%;
+    position: relative;
+}
+
+#reviewTable{
+    display: flex;
+    position: relative;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.reviewBlocks{
+    width: 18%;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    margin-left: 7%;
+}
+
+@media (max-width: 1280px) {
+    .reviewBlocks{
+        width: 36%;
+        margin-left: 14%;
+    }
+}
+
+@media (max-width: 640px) {
+    .reviewBlocks{
+        width: 72%;
+        margin-left: 28%;
+    }
+}
+
+.reviewText{
+    line-height: 16px;
+    font-size: 16px;
+    font-family: vw6-VWText,sans-serif;
+    color: #000;
+}
+
+.reviewNumbers{
+    line-height: 32px;
+    font-size: 26px;
+    font-family: vw6-VWText,sans-serif;
+    font-weight: 700;
+}
+
+.brake{
+    height: 1px;
+    background-color: #c2cacf;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+#reviewText{
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
+#firstA{
+    font-family: vw6-VWHead,sans-serif;
+    line-height: 52px;
+    font-size: 48px;
+    font-weight: 200;
+}
+
+#secondA{
+    font-size: 26px;
+    line-height: 32px;
+
+}
