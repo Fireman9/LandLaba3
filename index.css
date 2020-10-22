@@ -287,7 +287,7 @@ body {
     width: 38%;
 }
 
-#equipmentAndDesign{
+#equipmentAndDesign {
     position: relative;
     top: 0;
 }
@@ -298,4 +298,237 @@ body {
     font-family: vw6-VWHead, sans-serif;
     font-weight: 300;
     text-align: center;
+    margin-bottom: 50px;
+}
+
+#designName {
+    line-height: 56px;
+    font-size: 48px;
+    font-family: vw6-VWHead, sans-serif;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 50px;
+    margin-left: 8%;
+}
+
+#designText {
+    font-family: vw6-VWHead, sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-bottom: 50px;
+}
+
+#exterior {
+    display: flex;
+}
+
+#exteriorImg {
+    margin-left: 8%;
+    width: 60%;
+    align-self: flex-start;
+}
+
+#exteriorText {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: vw6-VWHead, sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+#interior {
+    display: flex;
+    margin-top: 50px;
+}
+
+#interiorImg {
+    margin-left: 8%;
+    width: 60%;
+    align-self: flex-start;
+}
+
+#interiorText {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: vw6-VWHead, sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+#optics {
+    display: flex;
+    margin-top: 50px;
+}
+
+#opticsImg {
+    margin-left: 8%;
+    width: 60%;
+    align-self: flex-start;
+}
+
+#opticsText {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: vw6-VWHead, sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+#disks {
+    display: flex;
+    margin-top: 50px;
+}
+
+#disksImg {
+    margin-left: 8%;
+    width: 60%;
+    align-self: flex-start;
+}
+
+#disksText {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: vw6-VWHead, sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+#gallery1 {
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 50px;
+}
+
+#firstRow1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#secondRow1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#gal1 {
+    width: 25%;
+    align-self: flex-end;
+}
+
+#gal2 {
+    width: 50%;
+    align-self: flex-end;
+}
+
+#gal3 {
+    width: 25%;
+    align-self: flex-end;
+}
+
+#gal4 {
+    width: 33%;
+    align-self: flex-start;
+}
+
+#gal5 {
+    width: 37%;
+    align-self: flex-start;
+}
+
+#synchronizationName {
+    margin-top: 50px;
+    line-height: 56px;
+    font-size: 48px;
+    font-family: vw6-VWHead, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#synchronizationText {
+    font-family: vw6-VWHead, sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-bottom: 50px;
+}
+
+#appConnect {
+    display: flex;
+    margin-top: 50px;
+}
+
+#appConnectImg {
+    margin-left: 8%;
+    width: 60%;
+    align-self: flex-start;
+}
+
+#appConnectText {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: vw6-VWHead, sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+#navigationAndMulti {
+    display: flex;
+    margin-top: 50px;
+}
+
+#navigationAndMultiImg {
+    margin-left: 8%;
+    width: 60%;
+    align-self: flex-start;
+}
+
+#navigationAndMultiText {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: vw6-VWHead, sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+#gallery2 {
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 50px;
+}
+
+#firstRow2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#secondRow2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#gal21 {
+    width: 66%;
+    align-self: flex-end;
+}
+
+#gal22 {
+    width: 33%;
+    align-self: flex-end;
+}
+
+#gal23 {
+    width: 25%;
+    align-self: flex-start;
+}
+
+#gal24 {
+    width: 37%;
+    align-self: flex-start;
 }
