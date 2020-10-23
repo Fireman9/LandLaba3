@@ -226,6 +226,7 @@ body {
 #editionDescriptions {
     transform: translateX(0%);
     transition: all 1s ease-in-out;
+    display: flex;
 }
 
 .editionName {
@@ -244,8 +245,7 @@ body {
 
 .editionImg {
     width: 62%;
-    min-width: 562px;
-    min-height: 375px;
+    align-self: flex-start;
 }
 
 #comfortDesc {
@@ -275,7 +275,7 @@ body {
 }
 
 #limitedTSIDesc {
-    position: absolute;
+    position: relative;
     left: 200%;
     transition: all .3s ease-in-out;
     width: 92%;

@@ -19,7 +19,6 @@ comfort.onclick = function () {
     limitedTDI.classList.remove("selectedEdition");
     limitedTDIDesc.style.opacity = "0";
     limitedTSIDesc.style.opacity = "0";
-    editionDescription.style.height = comfortDesc.offsetHeight.toString() + "px";
 }
 
 limitedTDI.onclick = function () {
@@ -30,7 +29,6 @@ limitedTDI.onclick = function () {
     limitedTSI.classList.remove("selectedEdition");
     comfortDesc.style.opacity = "0";
     limitedTSIDesc.style.opacity = "0";
-    editionDescription.style.height = limitedTDIDesc.offsetHeight.toString() + "px";
 }
 
 limitedTSI.onclick = function () {
@@ -41,7 +39,6 @@ limitedTSI.onclick = function () {
     limitedTDI.classList.remove("selectedEdition");
     comfortDesc.style.opacity = "0";
     limitedTDIDesc.style.opacity = "0";
-    editionDescription.style.height = limitedTSIDesc.offsetHeight.toString() + "px";
 }
 
 window.onscroll = function () {
@@ -68,7 +65,3 @@ window.onscroll = function () {
         nameDiv.style.color = "#fff";
     }
 }
-
-window.addEventListener("load", function () {
-    editionDescription.style.height = comfortDesc.offsetHeight.toString() + "px";
-})
