@@ -4,7 +4,7 @@ body {
 }
 
 #headerDiv {
-    position: fixed;
+    position: sticky;
     right: 0;
     top: 0;
     left: 0;
@@ -63,6 +63,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
+    margin-top: -100px;
 }
 
 
@@ -691,4 +692,20 @@ body {
     font-family: vw6-VWHead, sans-serif;
     font-size: 16px;
     border-bottom: 2px solid #dfe4e8;
+}
+
+#footerDiv {
+    padding-left: 16%;
+    padding-right: 16%;
+    font-family: vw6-VWHead, sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    margin-top: 200px;
+    padding-top: 50px;
+    border-top: 2px solid #001e50;
+    margin-bottom: 50px;
+}
+
+#numbers {
+    margin-top: 50px;
 }
