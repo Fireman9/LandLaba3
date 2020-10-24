@@ -114,6 +114,24 @@ body {
     cursor: pointer;
 }
 
+#backToTop {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-image: url("images/toTop100.png");
+    height: 100px;
+    width: 100px;
+    align-self: flex-start;
+    z-index: 3;
+}
+
+@media (max-width: 680px) {
+    #backToTop {
+        background-image: url("images/toTop50.png");
+        height: 50px;
+        width: 50px;
+    }
+}
 
 #viewDiv {
     position: relative;
@@ -143,6 +161,36 @@ body {
     bottom: 0;
     margin-bottom: 8%;
     width: 83%;
+}
+
+@media (max-width: 1280px) {
+    #viewCarName {
+        font-weight: 600;
+        line-height: 62px;
+        font-size: 54px;
+        font-family: vw6-VWHead, sans-serif;
+        color: #fff;
+        margin-left: 8%;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 8%;
+        width: 83%;
+    }
+}
+
+@media (max-width: 680px) {
+    #viewCarName {
+        font-weight: 500;
+        line-height: 48px;
+        font-size: 36px;
+        font-family: vw6-VWHead, sans-serif;
+        color: #fff;
+        margin-left: 8%;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 8%;
+        width: 83%;
+    }
 }
 
 #reviewTable {
@@ -206,6 +254,24 @@ body {
     line-height: 52px;
     font-size: 48px;
     font-weight: 200;
+}
+
+@media (max-width: 1280px) {
+    #firstA {
+        font-family: vw6-VWHead, sans-serif;
+        line-height: 46px;
+        font-size: 38px;
+        font-weight: 200;
+    }
+}
+
+@media (max-width: 640px) {
+    #firstA {
+        font-family: vw6-VWHead, sans-serif;
+        line-height: 36px;
+        font-size: 28px;
+        font-weight: 200;
+    }
 }
 
 #secondA {
@@ -642,6 +708,29 @@ body {
     padding: 20px;
 }
 
+@media (max-width: 680px) {
+    .name {
+        font-family: vw6-VWHead, sans-serif;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: left;
+        background-color: #444;
+        color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+    }
+
+    .text {
+        font-family: vw6-VWHead, sans-serif;
+        font-size: 18px;
+        line-height: 24px;
+        background-color: #444;
+        color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+    }
+}
+
 #efficiencyName {
     margin-top: 50px;
     line-height: 56px;
@@ -749,6 +838,24 @@ body {
     font-family: vw6-VWHead, sans-serif;
     font-size: 16px;
     border-bottom: 2px solid #dfe4e8;
+}
+
+@media (max-width: 1280px) {
+    .tableBody {
+        font-family: vw6-VWHead, sans-serif;
+        line-height: 22px;
+        font-size: 14px;
+        font-weight: 200;
+    }
+}
+
+@media (max-width: 640px) {
+    .tableBody {
+        font-family: vw6-VWHead, sans-serif;
+        line-height: 18px;
+        font-size: 10px;
+        font-weight: 150;
+    }
 }
 
 #footerDiv {

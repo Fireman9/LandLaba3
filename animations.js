@@ -17,6 +17,7 @@ const synchronizationMenu = document.getElementById("synchronizationMenu");
 const assistanceMenu = document.getElementById("assistanceMenu");
 const efficiencyMenu = document.getElementById("efficiencyMenu");
 const techInfoMenu = document.getElementById("techInfoMenu");
+const toTop = document.getElementById("backToTop");
 
 comfort.onclick = function () {
     comfortDesc.style.opacity = "1";
@@ -141,4 +142,8 @@ efficiencyMenu.onclick = function () {
 techInfoMenu.onclick = function () {
     document.getElementById("techInfo").scrollIntoView({behavior: "smooth", block: "start"});
     routine();
+}
+
+toTop.onclick = function () {
+    document.documentElement.scrollTop = 0;
 }
