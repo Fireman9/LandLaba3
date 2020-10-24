@@ -125,6 +125,10 @@ body {
     z-index: 3;
 }
 
+#backToTop:hover {
+    cursor: pointer;
+}
+
 @media (max-width: 680px) {
     #backToTop {
         background-image: url("images/toTop50.png");
